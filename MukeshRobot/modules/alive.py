@@ -10,11 +10,11 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
+    "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
+    "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
+    "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
+    "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
 ]
 
 Mukesh = [
@@ -30,7 +30,7 @@ Mukesh = [
     ],
 ]
 
-lol = "https://graph.org/file/ede6373450cdd0eb4db26.jpg"
+lol = "https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -48,16 +48,16 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.5)
     umm = await m.reply_sticker(
-        "CAACAgQAAx0Cc6rVEgACU0FkTIdf93nlDo64xQKozQPerOaQpQACHwwAAjIjUFH2ury91jCCRS8E"
+        "CAACAgUAAx0CYzn1-QACBNJkokXwQe20W4bcfiEZRNzwDcDtWgACcgoAAn392VT5P4ze45pHlR4E"
     )
     await umm.delete()
     await asyncio.sleep(0.8)
     await m.reply_photo(
         lol,
-        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[⏤‌•Criminal ꭙ 𝐌𝐔𝐒𝐈𝐂](f"t.me/{BOT_USERNAME}")』🎄**
+        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[⏤‌•𝐓𝐆 ꭙ 𝐑𝐎𝐁𝐎𝐓](f"t.me/{BOT_USERNAME}")』🎄**
    ╔═════ஜ۩۞۩ஜ════╗
 
-   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [🇬𝗛𝗢𝗦?](https://t.me/got_my_own_version)♨️
+   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝐑𝐎𝐏𝐑𝐈𝐒𝐇](https://t.me/ABOUT_RISHU)♨️
 
    ╚═════ஜ۩۞۩ஜ════╝""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
@@ -68,4 +68,4 @@ __help__ = """
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?
 
-☆............𝙱𝚈 » [ㅤ𝄟͢🦋⃟≛⃝ 𝐌𝐑 𝄟⃝🖤🇬𝗛𝗢𝗦𝗧࿇ ⃟☜](https://t.me/got_my_own_version)............☆"""
+☆............𝙱𝚈 » [ㅤ𝄟͢🦋⃟≛⃝ 𝐌𝐑 𝄟⃝🖤🇬𝗛𝗢𝗦𝗧࿇ ](https://t.me/got_my_own_version)............☆"""
