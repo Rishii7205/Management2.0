@@ -21,11 +21,11 @@ class Config(object):
     OWNER_USERNAME = "fuck_that_and_fucl_you"
     SUPPORT_CHAT = "jam_music_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001622908002
+        -1001664742905
 
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001622908002
+        -1001664742905
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
@@ -48,7 +48,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "1808943146")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/got_my_own_version" # EG, paypal
+    DONATION_LINK = "https://t.me/jam_music_support" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
