@@ -254,7 +254,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code> Made With by Rishii".format(
+            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code> Made With by [ʀᴏᴘʀɪsʜ](https//t.me/about_rishu".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -409,7 +409,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url= "https://t.me/jam_music_supports",
+                            url= "https://t.me/jam_music_support",
                         ),
                     ],
                     [
@@ -1109,7 +1109,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/c820f8639e1fef9f73b72.jpg",
+                animation="https://te.legra.ph/file/634d6bb1e6b584d0140d2.jpg",
                 caption=f"""
 {dispatcher.bot.first_name}
 
